@@ -1,0 +1,78 @@
+body
+{
+width:100%;
+  margin:0 auto;
+}
+#header
+{
+  
+  width:100%;
+  height:12rem;
+  background:linear-gradient(rgb(100,100,255),white);
+  overflow:hidden;
+}
+#header_nav
+{
+  position:relative;
+  width:96%;
+   height:2.5rem;
+  margin-top:60px;
+  
+}
+#header_nav>ul
+{
+  width:100%;
+  height:2.5rem;
+  background:black;
+  
+}
+#header_nav>ul>li
+{
+  float:left;
+  width:20%;
+  
+  list-style:none;
+  margin-left:5%;
+ 
+}
+.header_nav_button:nth-child(1)
+{
+    height:2.5rem;
+
+  line-height:2.5rem;
+}
+.header_nav_button
+{
+    height:2.5rem;
+   width:100%;
+   height:2rem;
+   background:grey;
+   line-height:2.5rem;
+   text-align:center;
+}
+.header_nav_button>a
+{
+  text-decoration:none;
+  display:block;
+  color:white;
+  font-family: 'Cabin', sans-serif;
+  font-size:1.2rem;  
+}
+.header_nav_button>a:hover
+{
+
+  color:red;
+  
+}
+#content
+{
+width:100%;
+  height:55rem;
+     
+}
+#footer
+{
+width:100%;
+  height:12rem;
+  background:linear-gradient(yellow,orange);
+}

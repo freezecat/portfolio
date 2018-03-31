@@ -1,0 +1,101 @@
+@keyframes echelle
+{
+   from{
+   width:260px;
+   height:190px;
+   }
+   to{ 
+   width:390px;
+   height:285px;
+   }
+}
+
+a
+{
+  text-decoration:none;
+}
+#content
+{
+  width:100%;
+  height:60rem;
+}
+#content>.container
+{
+  width:88%;
+  height:44rem;
+  
+ /* border:1px solid green;*/
+  position:relative;
+  top:4rem;
+  left:6%;
+}
+
+.box
+{
+  position:relative;
+  top:0;
+  left:10%;
+  /*border:1px solid red;*/
+  
+  float:left;
+  width:40%;
+  height:240px;
+  margin-bottom:2rem;
+}
+
+.box>a>div
+{
+
+   position:relative;
+   top:0px;
+   
+   
+ 
+   left:2rem;
+   width:260px;
+   height:190px;
+   overflow:hidden;
+}
+img
+{
+   width:260px;
+   height:190px;
+   }
+
+   
+.text
+{
+  
+  position:relative;
+  top:-100px;
+  left:6rem;
+ color:white;
+  font-size:1.6rem;
+  
+ 
+   
+}
+.box>a:hover>div>img
+{
+  -ms-animation:echelle 0.2s linear forwards;
+     -webkit-animation:echelle 0.2s linear forwards;
+	   animation:echelle 0.2s linear forwards;
+}
+.box>a:hover>.text
+{
+  color:red;
+  text-decoration:none;
+}
+
+#footer
+{
+ width:100%;
+  height:15rem;
+  background:grey;
+}
+#header
+{
+  width:100%;
+  height:10rem;
+  background:pink;
+}

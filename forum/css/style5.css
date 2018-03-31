@@ -1,0 +1,81 @@
+
+#home
+{
+ width:100%;
+}
+.opaque
+{
+  width:100%;
+  height:80rem;
+  background:rgba(50,120,50,0.4);
+}
+.section1
+{
+  position:absolute;
+  width:100%;
+  height:80rem;
+  background-image:url("../image/home2.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.signup_login_title
+{
+  margin-left:10rem;
+ 
+  font-size:2rem;
+  font-family:arial;
+  color:red;
+}
+
+#signup_box,#login_box
+{
+  width:40rem;
+  height:40rem;
+  border:1px solid red;
+  margin-left:10rem;
+  margin-top:3rem;
+  background:rgba(0,180,180,0.3);
+}
+#signup_box>div,#login_box>div
+{
+  position:relative;
+  margin-left:5rem;
+  margin-top:7rem;
+  
+}
+
+.titre_home
+{
+  position:relative;
+  width:40%;
+  height:6rem;
+  /*border:1px solid red;*/
+  top:10rem;
+  left:30%;
+  
+  
+}
+.button_home
+{
+  
+  position:relative;
+  top:2rem;
+  
+}
+
+.footer_float
+{
+float:left;
+width:25%;
+}
+.footer_float1
+{
+float:left;
+margin-left:15%;
+width:35%;
+}
+.footer_text
+{
+text-align:center;
+}
+ 

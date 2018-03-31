@@ -1,0 +1,146 @@
+@import url(http://weloveiconfonts.com/api/?family=fontawesome|brandico|zocial);
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+  font-size:1.5rem;
+}
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+  font-size:1.5rem;
+}
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+  font-size:1.5rem;
+}
+
+body
+{
+  margin:0 auto;
+}
+button
+{
+  padding-left:16px;
+  padding-right:16px;
+  height:2.1rem;
+  border:none;
+  border-radius:7px 7px 7px 7px;
+ 
+  cursor:pointer;
+}
+.btn1
+{
+ background:lightgreen;
+  color:green;
+}
+.btn2
+{
+ background:brown;
+  color:white;
+}
+.btn3
+{
+ background:blue;
+  color:white;
+}
+
+section
+{
+  width:100%;
+  height:30rem;
+  margin-bottom:1rem;
+  border:1px solid red;
+}
+.menu
+{
+  width:100%;
+  height:3rem;
+  background:black;
+}
+.menu>ul
+{
+  width:100%;
+  list-style:none;
+  height:3rem;
+  margin:0;
+  padding:0;
+}
+.menu>ul>li
+{
+ float:left;
+ height:3rem;
+ line-height:3rem;
+ text-align:center;
+}
+.menu>ul>li:nth-child(1)
+{
+  width:10%;
+}
+.menu>ul>li:nth-child(2) ,.menu>ul>li:nth-child(3),.menu>ul>li:nth-child(4)
+{
+  width:18%;
+}
+.menu>ul>li>a
+{
+  text-decoration:none;
+  color:white;
+  font-family:arial;
+  font-size:20px;
+   display:block;
+}
+.menu>ul>li:nth-child(1):hover,.menu>ul>li:nth-child(2):hover,.menu>ul>li:nth-child(3):hover,.menu>ul>li:nth-child(4):hover
+{
+   background:grey;
+  
+}
+
+.menu>ul>li:nth-child(5)
+{
+  width:36%; 
+}
+
+input
+{
+  height:2rem;
+  width:20rem;
+  border-radius:3px 3px 3px 3px;
+  border:1px solid black;
+}
+.menu>ul>li:nth-child(3)>button
+{
+  margin-left:1rem;
+}
+.menu>ul>li:nth-child(3)>input:focus
+{
+   border:1px solid blue;
+  
+}
+.network_icons
+{
+  width:40px;
+  height:40px;
+  border:2px solid white;
+  border-radius:40px;
+}
+.network_icons>a
+{
+text-decoration:none;
+}
+.network_icons>a>span
+{
+line-height:40px;
+}
+.network_icons>a>span:hover
+{
+color:red;
+}
+.titre
+{
+  font-size:2.4rem;
+  text-align:center;
+  margin:1rem;
+  font-family: 'Coiny', cursive;
+} 
+

@@ -1,0 +1,9 @@
+Date: Fri, 05 Jan 2018 13:02:02 +0000
+Subject: Activation compte
+To: b@gmail.com
+X-PHP-Originating-Script: 0:signup.php
+From: portfolio_forum@example.com
+
+Pour valider votre compte cliquer sur le lien:
+http://localhost/Portfolio3/forum/index.php?page=activation&email=b@gmail.com
+

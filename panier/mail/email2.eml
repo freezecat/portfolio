@@ -1,0 +1,12 @@
+Date: Fri, 24 Nov 2017 21:55:16 +0000
+From: admin@wampserver.invalid
+Subject: confirmation d'achat
+To: b@gmail.com
+X-PHP-Originating-Script: 0:paiement.php
+From administrateur@example.com
+CC: b@gmail.com
+
+Nous vous remercions pour votre visite ,vous trouverez ci_dessous un récapitulatif de votre achat:
+1 iPhone1 à 800 €
+1 iPhone2 à 900 €
+A bientôt !

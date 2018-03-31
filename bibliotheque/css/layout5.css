@@ -1,0 +1,27 @@
+body
+{
+margin:0 auto;
+}
+#content
+{
+ 
+  width:100%;
+  height:100rem;
+ background:url("../image/beige.jpg") no-repeat fixed center;
+  
+  
+}
+/* fond ecran content*/
+
+#footer
+{
+  width:100%;
+  height:15rem;
+  background:lightgreen;
+}
+#header
+{
+  width:100%;
+  height:15rem;
+  background:brown;
+}

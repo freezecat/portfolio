@@ -1,0 +1,224 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo|fontawesome|iconicstroke|brandico|zocial);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+  margin-left:1rem;
+}
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+  
+  font-size:1.5rem;
+}
+
+/* iconicstroke */
+[class*="iconicstroke-"]:before {
+  font-family: 'IconicStroke', sans-serif;
+}
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+  font-size:1.5rem;
+}
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+  font-size:1.5rem;
+}
+
+
+a
+{
+ text-decoration:none;
+}
+#alerte,#alerte1
+{
+  width:100%;
+  height:3rem;
+  
+    background:-webkit-linear-gradient(green,#0fc565);
+    background:-o-linear-gradient(green,#0fc565);
+	  background:-moz-linear-gradient(green,#0fc565);
+	    background:linear-gradient(green,#0fc565);
+ 
+	color:white;
+}
+#alerte
+{
+	display:none;
+}
+#alerte2 
+{
+  width:100%;
+  height:3rem;
+  
+    background:-webkit-linear-gradient(red,#fb8829);
+    background:-o-linear-gradient(red,#fb8829);
+	  background:-moz-linear-gradient(red,#fb8829);
+	    background:linear-gradient(red,#fb8829);
+ 
+	color:white;
+}
+
+.alerte_msg
+{
+  position:relative;
+  top:0.8rem;
+  left:5rem;
+  font-size:1.5rem;
+}
+#alerte_close,#alerte_close1
+{
+float:right;
+  color:white;
+  text-align:center;
+  font-family:arial;
+  font-size:1.5rem;
+  width:3rem;
+  height:3rem;
+  line-height:3rem;
+  cursor:pointer;
+   
+  background:-webkit-linear-gradient(red,#e73f61);
+    background:-o-linear-gradient(red,#e73f61);
+	  background:-moz-linear-gradient(red,#e73f61);
+	    background:linear-gradient(red,#e73f61);
+}
+
+.bouton
+{
+padding:1rem;
+  border-radius:7px 7px 7px 7px;
+  border:none;
+ 
+  cursor:pointer;
+}
+
+.bouton_success
+{
+  
+  
+  background:-webkit-linear-gradient(green,#0fc565);
+    background:-o-linear-gradient(green,#0fc565);
+	  background:-moz-linear-gradient(green,#0fc565);
+	    background:linear-gradient(green,#0fc565);
+		 color:white;
+}
+.bouton_info
+{
+  
+  
+  background:-webkit-linear-gradient(blue,#1f8ddf);
+    background:-o-linear-gradient(blue,#1f8ddf);
+	  background:-moz-linear-gradient(blue,#1f8ddf);
+	    background:linear-gradient(blue,#1f8ddf);
+		 color:white;
+}
+.bouton_danger
+{
+  
+  
+  background:-webkit-linear-gradient(red,#e73f61);
+    background:-o-linear-gradient(red,#e73f61);
+	  background:-moz-linear-gradient(red,#e73f61);
+	    background:linear-gradient(red,#e73f61);
+		 color:white;
+}
+.bouton_log
+{
+ padding:1rem;
+  border-radius:30px 30px 30px 30px;
+  background:linear-gradient(black,grey,white);
+  border:none;
+  color:white;
+  cursor:pointer;
+}
+.bouton_log:hover
+{
+  color:red;
+}
+.bouton_mon_profil
+{
+  color:black;
+}
+input[type="integer"]
+{
+  padding:1rem;
+  border-radius:5px;
+  border:none;
+  width:3rem; 
+}
+input[type="text"], input[type="password"]
+{
+  padding:1rem;
+  border-radius:5px;
+  border:none;
+  width:20rem; 
+}
+input[type="radio"]
+{
+  padding:0;
+  width:5rem;
+}
+
+h1
+{
+  font-family:arial;
+  
+}
+
+label
+{
+  font-size:1.2rem;
+  
+  
+}
+.navigation
+{
+ float:right;
+ width:22rem;
+ height:2rem;
+ margin-top:32px;margin-right:4rem;
+ background:#4195e3; 
+ border-radius:30px;
+ padding:0.5rem;
+}
+.margintop
+{
+  
+}
+.network_icons
+{
+  width:40px;
+  height:40px;
+  border:2px solid white;
+  border-radius:40px;
+}
+.network_icons>a
+{
+text-decoration:none;
+}
+.network_icons>a>span
+{
+line-height:40px;
+}
+.network_icons>a>span:hover
+{
+color:red;
+}
+table, th,td
+{
+  border:1px solid green;
+  text-align:center;
+   background:rgb(220,220,220);
+}
+th,td
+{
+  width:15rem;
+}
+.white
+{
+  color:white;
+}

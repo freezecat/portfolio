@@ -1,0 +1,213 @@
+#log
+{
+z-index:1000;
+position:absolute;
+top:0;
+width:100%;
+height:130rem;
+background:rgba(0,0,0,0.8);
+display:none;
+}
+#log_txt
+{
+  color:red;
+  
+  position:relative;
+  left:5rem;
+  top:2rem;
+  font-size:2rem;
+  font-family:arial;
+}
+#log>div:nth-child(1)
+{
+  position:relative;
+  float:left;
+  top:10rem;
+  left:14rem;
+  width:40rem;
+  height:30rem;
+  background:rgb(150,150,250);
+ 
+}
+.book_float
+{
+float:left;
+width:25%;
+}
+.clear_both
+{
+ clear:both;
+}
+#close
+{
+  position:relative;
+  float:left;
+  top:10rem;
+  left:14rem;
+  width:2rem;
+  height:2rem;
+  line-height:2rem;
+  background:red;
+  color:white;
+  font-family:arial;
+  text-align:center;
+  font-weight:bold;
+  cursor:pointer;
+  
+}
+#likes
+{
+margin-top:1rem;float:left;
+}
+#dislikes
+{
+margin-top:1rem;float:right;
+}
+
+
+
+
+#page_content
+{
+  position:relative;
+ 
+}
+#signup
+{
+   display:none;
+}
+#login
+{
+ display:block;
+}
+#form_signup,#form_login
+{
+width:80%;
+height:20rem;
+
+
+position:relative;
+margin-top:3rem;
+margin-left:2rem;
+background:white;
+}
+#form_signup
+{
+ display:block;
+}
+#form_login
+{
+display:none;
+}
+.footer_float
+{
+float:left;
+width:25%;
+}
+.footer_float1
+{
+float:left;
+margin-left:15%;
+width:35%;
+}
+.footer_text
+{
+text-align:center;
+}
+
+.other_books
+{
+float:left;width:30%
+}
+
+#search_result
+{
+  width:300px;
+  height:200px;
+  background:white;
+  border:1px solid black;
+  z-index:100;
+}
+
+#section_home1,#section_home2,#section_home3
+{
+  position:relative;
+  z-index:1;
+}
+#section_home1>.carousel_img,#section_home2>div,#section_home3>div
+{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:30rem;
+  border:1px solid green;
+   
+}
+#section_home1>.carousel_img>img
+{
+  width:100%;
+  height:30rem;
+}
+#section_home2>div
+{
+
+ background-image:url("../image/livre5.png");
+ background-size:cover;
+  
+}
+#section_home2>div>#box2
+{
+z-index:3;
+float:right;
+ 
+  width:400px;
+  height:30rem;
+  background:rgba(255,255,255,0.6);
+  
+  
+}
+#section_home2>div>#box2>div
+{
+z-index:3;
+ position:relative;
+ margin-top:3rem;
+ margin-left:50px;
+ width:300px;
+ height:24rem;
+ 
+ font-size:20px;
+ font-family:arial;
+ line-height:3rem;
+ text-align:center;
+  
+  
+}
+#section_home3>#box3
+{
+ background:linear-gradient(lightblue,pink);
+ background-size:cover;
+}
+#section_home3>#box3>.section_home3_title
+{
+  font-size:2rem;
+  font-family:arial;
+  color:grey;
+  text-align:center;
+  margin-top:1rem;
+}
+#section_home3>#box3>ul
+{
+  list-style:none;
+}
+#section_home3>#box3>ul>li
+{
+ font-size:1.5rem;
+ font-family:arial;
+ margin-top:2rem;
+}
+
+//top 3 livres
+
+	
+	

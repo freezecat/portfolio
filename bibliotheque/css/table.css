@@ -1,0 +1,28 @@
+#toplist
+{
+  border:1px solid red;
+}
+.toplist_td
+{
+  width:200px;
+  text-align:center;
+  border:1px solid red;
+}
+.toplist_td:nth-child(1)>span,.toplist_td:nth-child(4)>span
+{
+  font-size:3rem;
+  font-family:arial;
+  font-weight:bold;
+}
+#index1
+{
+  color:gold;
+}
+#index2
+{
+  color:silver;
+}
+#index3
+{
+  color:brown;
+}

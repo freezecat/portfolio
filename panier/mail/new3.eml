@@ -1,0 +1,11 @@
+Date: Sun, 24 Dec 2017 13:43:01 +0000
+Subject: Nouvel article
+To: d@gmail.com
+X-PHP-Originating-Script: 0:add.php
+From: freezecat@example.com
+CC:
+
+<img src='http://localhost/Portfolio3/panier/images/boeuf-bourguignon.jpg'/> width='200' height='200' alt='no'>
+
+Decouvrez :boeuf bourguigon en cliquant sur le lien ci-dessous!
+http://localhost/Portfolio3/panier/index.php?page=newarticle

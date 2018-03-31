@@ -1,0 +1,132 @@
+@import url(http://weloveiconfonts.com/api/?family=fontawesome|brandico|zocial);
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+  font-size:1.5rem;
+}
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+  font-size:1.5rem;
+}
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+  font-size:1.5rem;
+}
+
+
+@media screen and (max-width:930px)
+{
+
+  @keyframes echelle
+{
+   from{
+   width:390px;
+   height:285px;
+   }
+   to{ 
+   width:585px;
+   height:428px;
+   }
+}
+
+ 
+  
+#content
+{
+  width:100%;
+  height:155rem;
+}
+#content>.container
+{
+  width:88%;
+    left:6%;
+  height:130rem;
+ /* border:1px solid green;*/
+}
+
+ .box
+{
+  position:relative;
+  top:0;
+  left:10%;
+  width:80%;
+  
+  height:360px;
+
+  /*border:1px solid red;*/
+  
+ 
+  margin-bottom:2rem;
+}
+
+.box>a>div
+{
+
+   position:relative;
+   top:0;
+   left:4rem;
+   width:390px;
+   height:285px;
+   overflow:hidden;
+}
+.box>a>div>img
+{
+   width:390px;
+   height:285px;
+   }
+.box>a>.text
+{
+  
+  position:relative;
+  top:-150px;
+  left:12rem;
+ color:white;
+  font-size:1.6rem;
+  
+ 
+   
+}
+   
+}
+/*footer*/
+.clear_both
+{
+ clear:both;
+}
+.footer_float
+{
+float:left;
+width:25%;
+}
+.footer_float1
+{
+float:left;
+margin-left:15%;
+width:35%;
+}
+.footer_text
+{
+text-align:center;
+}
+.network_icons
+{
+  width:40px;
+  height:40px;
+  border:2px solid white;
+  border-radius:40px;
+}
+.network_icons>a
+{
+text-decoration:none;
+}
+.network_icons>a>span
+{
+line-height:40px;
+}
+.network_icons>a>span:hover
+{
+color:red;
+}

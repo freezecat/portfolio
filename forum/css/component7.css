@@ -1,0 +1,208 @@
+@import url(http://weloveiconfonts.com/api/?family=fontawesome|brandico|zocial);
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+  font-size:1.5rem;
+}
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+  font-size:1.5rem;
+}
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+  font-size:1.5rem;
+}
+
+/*animation*/
+@keyframes trans
+{
+  from {margin-right:-150px;}
+  to {margin-right:100%;}
+}
+@keyframes trans2
+{
+  from {margin-right:-75px;}
+  to {margin-right:100%;}
+}
+
+#nuage1
+{
+  position:relative;
+  float:right;
+  width:150px;
+  height:50px;
+  margin-top:0;
+  margin-right:0px;
+  
+  animation:trans 27s linear infinite;
+}
+#nuage2
+{
+  position:relative;
+  float:right;
+   width:75px;
+  height:25px;
+  margin-top:1rem;
+  margin-right:0px;
+    animation:trans2 18s linear infinite;
+}
+
+/*fin animation*/
+
+.fontawesome
+{
+  text-decoration:none;
+}
+.fontawesome>span
+{
+  margin-left:2rem;
+   
+}
+.fontawesome-thumbs-up
+{
+   color:green;
+}
+.fontawesome-thumbs-down
+{
+   color:red;
+}
+
+.titre
+{
+ font-size:3rem;
+ font-family: 'Cabin', sans-serif;
+ color:white;
+}
+.border1
+{
+  border:1px solid white;
+   
+}
+.border1_text
+{
+   word-wrap: break-word;
+    color:white;
+}
+.border1
+{
+  margin-top:2rem;
+  
+  width:30rem;
+  height:10rem;
+}
+.border1_text
+{
+  position:relative; 
+  margin-left:2rem;
+  margin-top:1rem;
+  width:26rem;
+  height:8rem;
+  
+}
+.button
+{
+  border-radius:5px 5px 5px 5px;
+  border:none;
+  padding-left:1rem;
+  padding-right:1rem;
+  height:2.5rem;
+  color:white;
+  cursor:pointer;
+} 
+.button_red
+{
+  background:red;
+  
+}
+.button_blue
+{
+  background:blue;
+  
+}
+/* navigation forum*/
+.forum_nav
+{
+width:200px;
+height:40px;
+float:left;
+cursor:pointer;
+text-align:center;
+line-height:40px;
+}
+.forum_nav:nth-child(1)
+{
+ background:silver;
+}
+.forum_nav:nth-child(2)
+{
+ background:lightblue;
+ margin-left:2rem;
+}
+.forum_nav:nth-child(3)
+{
+background:lightgreen;
+ margin-left:2rem;
+}
+.forum_nav:nth-child(4)
+{
+background:pink;
+ margin-left:2rem;
+}
+.forum_nav_clear
+{
+ clear:both;
+ margin-bottom:3rem;
+}
+
+
+/* fin navigation forum */
+input[type="text"],input[type="password"]
+{
+  width:15rem;
+  height:2rem;
+  border-radius:5px 5px 5px 5px;
+  border:none;
+ 
+}
+
+
+input[type="text"]:focus,input[type="password"]:focus
+{
+  
+ background:rgba(100,100,255,0.2);
+}
+.margin-input
+{
+margin-top:1rem;
+margin-bottom:1rem;
+}
+/*footer*/
+.network_icons
+{
+  width:40px;
+  height:40px;
+  border:2px solid white;
+  border-radius:40px;
+}
+.network_icons>a
+{
+text-decoration:none;
+}
+.network_icons>a>span
+{
+line-height:40px;
+}
+.network_icons>a>span:hover
+{
+color:red;
+}
+/* footer */
+
+/*fonds ecrans*/
+#fond_ecran1
+{
+  background:lightblue;
+}
