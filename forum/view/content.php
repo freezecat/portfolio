@@ -1,3 +1,3 @@
 <div id="content">
-<?php require "controller/".$page.".php";?>
+    <?php require "controller/".$page.".php";?>
 </div>

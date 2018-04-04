@@ -24,7 +24,7 @@
 			    <input type="password" name="passwordbis" placeholder=""/>
 			</div>
 			
-			<div class="g-recaptcha" data-sitekey="YOUR_KEY"></div>
+			<div class="g-recaptcha" data-sitekey="SITE_KEY"></div>
 			
 			<button type="submit" class="button button_blue">signup</button>
 	
